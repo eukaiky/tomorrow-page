@@ -16,7 +16,8 @@ export const Header = () => {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-gray-800 bg-gray-950/70 backdrop-blur-md">
       <nav className="container mx-auto flex max-w-6xl items-center justify-between px-4 py-5">
-       <a href="#">
+        {/* MUDANÇA BEM AQUI: href="#" foi trocado por href="#inicio" */}
+        <a href="#inicio">
           <img src="/tmw-logo.png" alt="Tomorrow Logo" className="h-8 w-auto" />
         </a>
 
@@ -73,5 +74,3 @@ export const Header = () => {
 };
 
 export default Header;
-
-

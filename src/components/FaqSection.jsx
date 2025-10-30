@@ -1,8 +1,8 @@
 import React from 'react';
-import { SectionTitle } from '../ui/SectionTitle';
-import { Card } from '../ui/Card';
-import { CtaButton } from '../ui/CtaButton';
-import { FaqItem } from '../ui/FaqItem';
+import { SectionTitle } from '../ui/SectionTitle.jsx';
+import { Card } from '../ui/Card.jsx';
+import { CtaButton } from '../ui/CtaButton.jsx';
+import { FaqItem } from '../ui/FaqItem.jsx';
 
 const FaqSection = () => {
   const faqs = [
@@ -26,8 +26,8 @@ const FaqSection = () => {
 
   return (
     <section id="faq" className="bg-gray-950 py-24 md:py-32">
-      <div className="container mx-auto grid max-w-6xl grid-cols-1 gap-16 px-4 lg:grid-cols-2">
-        <div className="flex flex-col">
+      <div className="container mx-auto grid max-w-6xl grid-cols-1 gap-16 px-4 lg:grid-cols-2 lg:items-center">
+        <div className="flex flex-col justify-center">
           <SectionTitle
             title="Garantia e FAQ"
             subtitle="Sem mistério, sem contrato amarrado. Respostas diretas para cortar o caminho."
