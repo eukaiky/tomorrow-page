@@ -5,9 +5,9 @@ const Footer = () => (
     <div className="container mx-auto max-w-6xl px-4 py-16">
       <div className="grid grid-cols-1 gap-12 md:grid-cols-3">
         <div>
-          <a href="#" className="text-2xl font-bold text-white">
-            tm<span className="text-orange-600">w</span>
-          </a>
+        <a href="#inicio">
+          <img src="/tmw-logo.png" alt="Tomorrow Logo" className="h-8 w-auto" />
+        </a>
           <p className="mt-4 text-sm text-gray-400">
             Tomorrow Marketing. Branding, Vendas e Funil 3A3R para quem quer
             ser nome, não número.
